@@ -61,7 +61,9 @@ passport.use(new GoogleStrategy({
 passport.use(new FacebookStrategy({
     clientID: Config.facebookAuth.appId,
     clientSecret: Config.facebookAuth.appSecret,
-    callbackURL: "/auth/facebook/secrets"
+    callbackURL: "https://damp-escarpment-29000.herokuapp.com/auth/facebook/secrets",
+    profileFields: ["id", "name"],
+    proxy: true
   },
   function(accessToken, refreshToken, profile, cb) {
     User.findOrCreate({ facebookId: profile.id }, function (err, user) {
