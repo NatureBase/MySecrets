@@ -40,7 +40,7 @@ I am using node verion `v16.18.0`, so you might want to change your node version
 
 ### Technologies and Frameworks
 
-Currently, I am hosting this project on Heroku, you can access it via this link http://wesecrets.herokuapp.com , and for frameworks I am using is Bootstrap 5 
+Currently, I am hosting this project on Heroku (only until the end of November), you can access it via this link http://wesecrets.herokuapp.com , and for frameworks I am using is Bootstrap 5 
 for simple UI design and also Font Awesome to get the free icons.
 
 ### License
